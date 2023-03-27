@@ -32,6 +32,12 @@ footer h3 {
   font-size: 90%;
 }
 
+iframe{
+  width: 320px;
+  height: 500px;
+  border: solid 5px black;
+}
+
 .wrapper {
   margin: 0 auto 0 auto;
   width: 960px;
