@@ -69,6 +69,8 @@ section {
   padding: 5px;
   margin: 5px;
   border: double 4px orange;
+  top: 10px;
+  position: relative;
 }
 
 section article {
