@@ -102,6 +102,14 @@ article p {
   background: cyan;
   z-index: 4;
 }
+
+#float{
+  float: right;
+  width: 300px;
+  height: 200px;
+  margin: 50px;
+  z-index: 7;
+}
 .wrapper {
   margin: 0 auto 0 auto;
   width: 960px;
