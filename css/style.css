@@ -12,6 +12,8 @@ header {
   background: url('../images/header.jpg');
   width: 960px;
   height: 150px;
+  position: relative;
+  top: 0px;
 }
 
 header h1 {
