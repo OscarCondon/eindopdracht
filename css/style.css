@@ -102,6 +102,7 @@ article p {
   padding: 10px;
   background: cyan;
   z-index: 4;
+  overflow: hidden;
 }
 
 img{
