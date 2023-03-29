@@ -109,7 +109,7 @@ img{
   width: 300px;
 }
 
-#float{
+.float{
   float: right;
   margin: 50px;
   z-index: 7;
