@@ -26,8 +26,7 @@ header h1 {
 footer{
   background: cyan;
   border: dashed orange 3px;
-  postion: relative;
-  top: 10px;
+  position: relative;
 }
 
 footer h3 {
