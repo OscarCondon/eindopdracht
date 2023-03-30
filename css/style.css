@@ -27,6 +27,7 @@ footer{
   background: cyan;
   border: dashed orange 3px;
   position: relative;
+  top: 10px;
 }
 
 footer h3 {
@@ -120,4 +121,5 @@ img{
 .wrapper {
   margin: 0 auto 0 auto;
   width: 960px;
+  overflow: hidden;
 }
