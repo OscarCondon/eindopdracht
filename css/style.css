@@ -3,6 +3,11 @@
   padding: 0px;
 }
 
+.wrapper {
+  margin: 0 auto 0 auto;
+  width: 960px;
+}
+
 body{
   font-family: Arial, Verdana, Geneva;
   background: white url('../images/background.jpg') repeat;
@@ -12,8 +17,8 @@ header {
   background: url('../images/header.jpg');
   width: 960px;
   height: 150px;
-  top: 0px;
   z-index: 7;
+  position: sticky;
 }
 
 header h1 {
@@ -43,11 +48,15 @@ iframe{
   display: inline-block;
 }
 
+nav{
+  position: sticky;
+  top: 0px;
+}
+
 ul {
   background: cyan;
   border: solid 3px orange;
   padding: 15px;
-  position: fixed;
   top: 150px;
   left: 600px;
   z-index: 6;
@@ -74,7 +83,6 @@ section {
   margin: 5px;
   border: double 4px orange;
   top: 170px;
-  position: absolute;
 }
 
 section article {
@@ -115,11 +123,4 @@ img{
   float: right;
   margin: 50px;
   z-index: 7;
-}
-
-
-.wrapper {
-  margin: 0 auto 0 auto;
-  width: 960px;
-  overflow: hidden;
 }
